@@ -34,4 +34,4 @@ Builds app and db docker images and starts containers accessible through [http:/
 
 ### `yarn start-prod`
 
-- Starts the server only, which serves a production build on [localhost:8080](localhost:8080) ("yarn build" must have been run previously)
+- Starts the server only, which serves the api and a production client build [localhost:8080](localhost:8080) ("yarn build" must have been run previously)
