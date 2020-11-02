@@ -22,7 +22,7 @@ Builds app and db docker images and starts containers accessible through [http:/
 
 - Builds the client for production to the `build` folder
 
-*** DB must be set with process.env.DATABASE_URL or local db (named package.json[name]) on 5432***
+***DB must be set with process.env.DATABASE_URL or local db (named package.json[name]) on 5432***
 
 ### `yarn start-dev`
 
