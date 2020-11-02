@@ -4,6 +4,6 @@ import App from './App'
 
 test('app components render', () => {
   const { getByText } = render(<App />)
-  const csm = getByText('login')
-  expect(csm).toBeInTheDocument()
+  const login = getByText('login')
+  expect(login).toBeInTheDocument()
 })
