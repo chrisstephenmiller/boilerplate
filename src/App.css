@@ -6,28 +6,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-size: calc(16px + 1.5vw);
   color: white;
 }
 
-#submitInput {
-  height: 30px;
-  font-weight: bold
-}
-
-#submitInput:disabled {
-  font-weight: normal
-}
-
-#form {
-  display: flex;
-  flex-direction: column;
-  color: white
-}
-
-input {
-  margin: 5px;
-  height: 26px;
-  font-size: 18px;
+a {
+  color: white;
+  text-decoration: none;
 }
 
