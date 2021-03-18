@@ -4,6 +4,20 @@
 - API is GraphQL running on an [Express](https://expressjs.com/) server
 - DB is [postgreSQL](https://www.postgresql.org/) configured via [Sequelize](https://sequelize.org/) 
 
+### development: 
+You will need to set the following values:
+
+`secrets.js`
+process.env.GOOGLE_CLIENT_ID=
+process.env.GOOGLE_CLIENT_SECRET=
+process.env.GOOGLE_CALLBACK=
+process.env.APP_URL=
+process.env.NODE_ENV=
+
+`.env`
+REACT_APP_API_URL=
+#
+
 In the project directory, you can run:
 
 ### `docker-compose up`
